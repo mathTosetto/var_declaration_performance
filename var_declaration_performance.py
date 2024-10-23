@@ -21,7 +21,7 @@ def compare_times(var_type: str, function_time: float, literal_time: float):
     and calculates the percentage difference in speed.
 
     Args:
-        var_type (str): The type of variable being compared (e.g., "List", "Dictionary").
+        var_type (str): The type of variable being compared (e.g., "List", "Dict").
         function_time (float): The time taken to declare the variable using the function constructor.
         literal_time (float): The time taken to declare the variable using the literal declaration.
     """
