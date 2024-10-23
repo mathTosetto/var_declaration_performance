@@ -34,20 +34,13 @@ The script uses Python's `timeit` module to run each variable declaration **1 mi
 2. Make sure Python is installed on your machine (version 3.x or higher).
 3. Open your terminal and navigate to the script's directory.
 4. Run the following command:
-
     ```bash
     python time_var_declaration.py
     ```
 
 ### Example Output
-
-
-How to Run the Script:
-Clone or download the Python script.
-Ensure you have Python 3.x installed.
-Run the script using:
-bash
-Copia codice
-python time_var_declaration.py
-Expected Output:
-The output will show the time it takes to declare each data type using both literals and constructors, and then compare which method is faster. Typically, the literal syntax will be faster due to the overhead of function calls in the constructors.
+```python
+Int results:
+Function declaration: 0.01401954 seconds.
+Literal declaration: 0.00408096 seconds.
+Declaring Int using literals is faster by 70.89%.
